@@ -7,9 +7,6 @@
 }
 
 @media (max-width: 576px) {
-	#banner {
-		margin-top: 136px;
-	}
 	.navbar-nav {
 		margin: auto;
 		text-align: center;
