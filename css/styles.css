@@ -1,9 +1,9 @@
-#banner	{
+#banner {
 	margin-top: 56px;
 }
 
 .paragraph {
-		max-width: 768px;
+	max-width: 768px;
 }
 
 @media (max-width: 576px) {
@@ -11,4 +11,11 @@
 		margin: auto;
 		text-align: center;
 	}
+}
+
+@media (max-width: 992px) {
+	.projectImage {
+		margin-bottom: 1rem;
+	}
+
 }
