@@ -11,8 +11,8 @@
 			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
 			crossorigin="anonymous"
 		/>
-		<!--Devicon-->		
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+		<!--Devicon-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
 		<!--Fontawesome-->
 		<script src="https://kit.fontawesome.com/00296ab204.js" crossorigin="anonymous"></script>
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
@@ -20,7 +20,7 @@
 		<title>Uday Rana</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-sm fixed-top justify-content-center bg-dark navbar-dark">
+		<nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
 			<div class="container-fluid">
 				<button
 					class="navbar-toggler ms-auto"
@@ -48,147 +48,102 @@
 				</div>
 			</div>
 		</nav>
+		<!--Banner-->
 		<div
 			id="banner"
-			class="container-fluid p-5 mb-4 text-bg-dark"
+			class="container-fluid p-5 mb-3 text-bg-dark"
 			style="background-image: url('images/header_img.avif'); background-size: cover; background-position: left"
 		>
 			<h1 class="display-1">Uday Rana</h1>
 			<h2>Developer.</h2>
 		</div>
-		<div class="container">
-			<div class="paragraph container-lg my-3 text-center">
-				<h2>Hi! I'm Uday.</h2>
-				<div class="container-lg">
-					<p>
-						I'm a programming student and developer living in Toronto, ON. I'm always looking for opportunities to learn something new and to
-						challenge myself. I'm currently working towards becoming a full-stack web developer.
-					</p>
-				</div>
+		<div class="container-md text-center">
+			<!--Intro-->
+			<div class="paragraph">
+				<h1>Hi! I'm Uday.</h1>
+				<p>
+					I'm a programming student and developer living in Toronto, ON. I'm always looking for opportunities to learn something new and to challenge
+					myself. I'm currently working towards becoming a full-stack web developer.
+				</p>
 			</div>
 			<hr />
-			<div class="container-lg my-3 text-center">
-				<h2 id="projects">Projects</h2>
-				<!--Blog app-->
-				<div class="row my-3">
-					<div class="col-xl img-fluid projectImage">
-						<img class="img-fluid rounded" src="./images/blog.avif" alt="Blog web app screenshot" />
-					</div>
-					<div class="col-xl py-5 text-bg-dark rounded">
-						<h3>Blog Web App</h3>
-						<div class="container-lg-5">
-							<i class="devicon-nodejs-plain colored" title="Node.js" style="font-size: 2.5em"></i>
-							<i class="devicon-express-original" title="Express.js" style="font-size: 2.5em"></i>
-							<i class="devicon-handlebars-plain" title="Handlebars" style="font-size: 2.5em"></i>
-							<i class="devicon-postgresql-plain colored" title="PostgreSQL" style="font-size: 2.5em"></i>
-          					<i class="devicon-mongodb-plain colored" title="MongoDB" style="font-size: 2.5em"></i>
-						</div>
-						<div class="container-lg-5">
-							<p>
-								Web app allowing users to register and log-in in order to create blog posts with images.
-								User log-in information is hashed to ensure secure data storage.
-							</p>
-							<a href="https://usrana-blog.cyclic.app/"><button type="button" class="btn btn-light">View live</button></a>
-							<a href="https://github.com/uday-rana/blog"><button type="button" class="btn btn-outline-light">View repository</button></a>
-						</div>
-					</div>
+			<!--Projects-->
+			<h2 id="projects">Projects</h2>
+			<!--Blog app-->
+			<div class="row g-1 my-3">
+				<div class="col-lg-6">
+					<img class="img-fluid rounded projectImage" src="./images/blog.avif" alt="Blog web app screenshot" />
 				</div>
-				<!--Employee registry app-->
-				<div class="row my-3">
-					<div class="col-xl img-fluid projectImage">
-						<img class="img-fluid rounded" src="./images/persons.avif" alt="Employee registry web app screenshot" />
+				<div class="col-lg-6 py-5 px-2 text-bg-dark rounded">
+					<h3>Blog Web App</h3>
+					<div class="container">
+						<i class="devicon-nodejs-plain colored" title="Node.js" style="font-size: 2.5em"></i>
+						<i class="devicon-express-original" title="Express.js" style="font-size: 2.5em"></i>
+						<i class="devicon-handlebars-plain" title="Handlebars" style="font-size: 2.5em"></i>
+						<i class="devicon-postgresql-plain colored" title="PostgreSQL" style="font-size: 2.5em"></i>
+						<i class="devicon-mongodb-plain colored" title="MongoDB" style="font-size: 2.5em"></i>
 					</div>
-					<div class="col-xl py-5 text-bg-dark rounded">
-						<h3>Employee Registry App</h3>
-						<div class="container-lg-5">
-							<i class="devicon-nodejs-plain colored" title="Node.js" style="font-size: 2.5em"></i>
-							<i class="devicon-express-original" title="Express.js" style="font-size: 2.5em"></i>
-							<i class="devicon-handlebars-plain" title="Handlebars" style="font-size: 2.5em"></i>
-							<i class="devicon-postgresql-plain colored" title="PostgreSQL" style="font-size: 2.5em"></i>
-						</div>
-						<div class="container-lg-5">
-							<p>
-								Web app allowing users to manage employees within a relational database.
-							</p>
-							<a href="https://usrana-persons.cyclic.app/"><button type="button" class="btn btn-light">View live</button></a>
-							<a href="https://github.com/uday-rana/persons"><button type="button" class="btn btn-outline-light">View repository</button></a>
-						</div>
-					</div>
-				</div>
-				<!--Seinfeld chat bot-->
-				<div class="row my-3">
-					<div class="col-xl img-fluid projectImage">
-						<img class="img-fluid rounded" src="./images/kramerbot.avif" alt="KramerBot screenshot" />
-					</div>
-					<div class="col-xl py-5 text-bg-dark rounded">
-						<h3>KramerBot</h3>
-						<div class="container-lg-5">
-							<i class="devicon-python-plain" title="Python" style="font-size: 2.5em"></i>
-						</div>
-						<div class="container-lg-5">
-							<p>
-								Chat bot extension for the messaging platform Discord. Waits for a command from users, then uses an API to display a random
-								quote from the TV series 'Seinfeld'. Backend made with Flask.
-							</p>
-							<a href="https://github.com/uday-rana/KramerBot"><button type="button" class="btn btn-outline-light">View repository</button></a>
-						</div>
-					</div>
-				</div>
-				<!--
-					Employee API project
-				<div class="row my-3">
-					<div class="col-lg-6 projectImage">
-						<img class="img-fluid rounded" src="images/employeebook.avif" alt="EmployeeBook screenshot" />
-					</div>
-					<div class="col-lg-6 py-5 text-bg-dark rounded">
-						<h3>EmployeeBook</h3>
-						<div class="container-lg-5">
-							<i class="devicon-html5-plain colored" title="HTML5" style="font-size: 2.5em"></i>
-							<i class="devicon-css3-plain colored" title="CSS3" style="font-size: 2.5em"></i>
-							<i class="devicon-javascript-plain colored" title="JavaScript" style="font-size: 2.5em"></i>
-						</div>
-						<div class="container-lg-5">
-							<p>A showcase website that uses AJAX to request employee information from an API and display it in a card format.</p>
-							<a href="https://uday-rana.github.io/employeebook/"><button type="button" class="btn btn-light">View live</button></a>
-							<a href="https://github.com/uday-rana/employeebook"><button type="button" class="btn btn-outline-light">View repository</button></a>
-						</div>
-					</div>
-				</div>
-				Pet DOM project
-				<div class="row my-3">
-					<div class="col-lg-6 projectImage">
-						<img class="img-fluid rounded" src="images/petfind.avif" alt="Petfind screenshot" />
-					</div>
-					<div class="col-lg-6 py-5 text-bg-dark rounded">
-						<h3>PetFind</h3>
-						<div class="container-lg-5">
-							<i class="devicon-html5-plain colored" title="HTML5" style="font-size: 2.5em"></i>
-							<i class="devicon-css3-plain colored" title="CSS3" style="font-size: 2.5em"></i>
-							<i class="devicon-javascript-plain colored" title="JavaScript" style="font-size: 2.5em"></i>
-						</div>
+					<div class="container">
 						<p>
-							An online catalogue for a fictional pet shop. Users can filter through pets based on age and species. Created as a showcase for DOM
-							manipulation using JavaScript.
+							Web app allowing users to register and log-in in order to create blog posts with images. User log-in information is hashed to ensure
+							secure data storage.
 						</p>
-						<a href="https://uday-rana.github.io/petfind/"><button type="button" class="btn btn-light">View live</button></a>
-						<a href="https://github.com/uday-rana/petfind"><button type="button" class="btn btn-outline-light">View repository</button></a>
+						<a href="https://usrana-blog.cyclic.app/"><button type="button" class="btn btn-light">View live</button></a>
+						<a href="https://github.com/uday-rana/blog"><button type="button" class="btn btn-outline-light">View repository</button></a>
 					</div>
 				</div>
-				-->
+			</div>
+			<!--Employee registry app-->
+			<div class="row g-1 my-3">
+				<div class="col-lg-6">
+					<img class="img-fluid rounded projectImage" src="./images/persons.avif" alt="Employee registry web app screenshot" />
+				</div>
+				<div class="col-lg-6 py-5 px-2 text-bg-dark rounded">
+					<h3>Employee Registry App</h3>
+					<div class="container">
+						<i class="devicon-nodejs-plain colored" title="Node.js" style="font-size: 2.5em"></i>
+						<i class="devicon-express-original" title="Express.js" style="font-size: 2.5em"></i>
+						<i class="devicon-handlebars-plain" title="Handlebars" style="font-size: 2.5em"></i>
+						<i class="devicon-postgresql-plain colored" title="PostgreSQL" style="font-size: 2.5em"></i>
+					</div>
+					<div class="container">
+						<p>Web app allowing users to manage employees within a relational database.</p>
+						<a href="https://usrana-persons.cyclic.app/"><button type="button" class="btn btn-light">View live</button></a>
+						<a href="https://github.com/uday-rana/persons"><button type="button" class="btn btn-outline-light">View repository</button></a>
+					</div>
+				</div>
+			</div>
+			<!--Seinfeld chat bot-->
+			<div class="row g-1 my-3">
+				<div class="col-lg-6">
+					<img class="img-fluid rounded projectImage" src="./images/kramerbot.avif" alt="KramerBot screenshot" />
+				</div>
+				<div class="col-lg-6 py-5 px-2 text-bg-dark rounded">
+					<h3>KramerBot</h3>
+					<div class="container">
+						<i class="devicon-python-plain" title="Python" style="font-size: 2.5em"></i>
+					</div>
+					<div class="container">
+						<p>
+							Chat bot for the messaging platform Discord. Waits for a command, then uses an API to display a random quote from the TV series
+							'Seinfeld'. Backend made in Flask.
+						</p>
+						<a href="https://github.com/uday-rana/KramerBot"><button type="button" class="btn btn-outline-light">View repository</button></a>
+					</div>
+				</div>
 			</div>
 			<hr />
-			<div class="paragraph container-lg my-3 text-center">
+			<!--About-->
+			<div class="paragraph">
 				<h2 id="about">About Me</h2>
-				<div class="container-lg">
-					<p>
-						I'm a software developer currently enrolled in Computer Programming &amp; Analysis at Seneca College. Aside from web development, I'm
-						also learning object-oriented programming using C++ and database management using SQL and noSQL databases. In my free time, I like to
-						play chess or discover new music.
-					</p>
-				</div>
+				<p>
+					I'm a software developer currently enrolled in Computer Programming &amp; Analysis at Seneca College. Aside from web development, I'm also
+					learning object-oriented programming using C++ and database management using SQL and noSQL databases. In my free time, I like to play chess
+					or discover new music.
+				</p>
 			</div>
 		</div>
-		<footer class="container-fluid p-4 mt-4 text-bg-dark">
+		<footer class="container-fluid p-4 ms-auto text-bg-dark">
 			<ul class="nav justify-content-center">
 				<li class="nav-item">
 					<a href="https://github.com/uday-rana" target="_blank" class="nav-link link-light"><i class="fa-brands fa-github"></i> GitHub</a>
