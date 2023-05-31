@@ -1,9 +1,8 @@
 #banner {
-	margin-top: 56px;
 	background-image: url('/images/header_img.avif');
 	background-size: cover;
 	background-position: left;
-	height: 75vh;
+	height: 100vh;
 }
 
 .paragraph {
@@ -31,13 +30,6 @@
 
 @media (max-width: 992px) {
 	#banner {
-		height: 50vh;
-	}
-}
-
-
-@media (min-width: 1400px) {
-	#banner {
-		height: 85vh;
+		height: 55vh; /*50% + 5% because the navbar is laid on top*/
 	}
 }
