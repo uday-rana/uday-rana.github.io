@@ -1,5 +1,9 @@
 #banner {
 	margin-top: 56px;
+	background-image: url('/images/header_img.avif');
+	background-size: cover;
+	background-position: left;
+	height: 75vh;
 }
 
 .paragraph {
@@ -14,9 +18,26 @@
 	width: 100%;
 }
 
+.devicon {
+	font-size: 2.5rem;
+}
+
 @media (max-width: 576px) {
 	.navbar-nav {
 		margin: auto;
 		text-align: center;
+	}
+}
+
+@media (max-width: 992px) {
+	#banner {
+		height: 50vh;
+	}
+}
+
+
+@media (min-width: 1400px) {
+	#banner {
+		height: 85vh;
 	}
 }
